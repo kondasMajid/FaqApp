@@ -1,0 +1,21 @@
+<section>
+  <div   class="box">
+      <div>
+          <h4> Answer :  {{question.text}}
+            <a href="#" (click)="question.hide = !question.hide"> show </a>
+            <a href="#" (click)="removeQuestion(question)"> remove </a>
+            </h4>
+          <!-- <h4> Answer :  {{question.text}}   </h4> -->
+        </div>
+      <h3 [hidden]="question.hide">{{question.answer}}</h3>
+
+  </div>
+
+
+  <!-- <nav aria-label="breadcrumb"  *ngFor="let question of questions" >
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active" aria-current="page">Answer :  {{question.text}} <a href="#" (click)="question.hide = !question.hide"</li>
+    </ol>
+    <h3 [hidden]="question.hide">{{question.text}}</h3>
+  </nav> -->
+</section>

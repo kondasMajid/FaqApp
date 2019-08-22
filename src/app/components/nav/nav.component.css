@@ -1,0 +1,11 @@
+nav{
+  height: 80px;
+  background-color: brown;
+}
+
+nav h3{
+  color: wheat;
+  text-align: center;
+  padding-top: 2%;
+}
+
